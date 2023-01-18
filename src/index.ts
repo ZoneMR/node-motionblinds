@@ -319,7 +319,7 @@ export class MotionGateway extends EventEmitter {
       }
     })
 
-    recvSocket.bind(UDP_PORT_RECEIVE, MULTICAST_IP)
+    recvSocket.bind(UDP_PORT_RECEIVE)
   }
 
   stop() {
